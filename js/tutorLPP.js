@@ -1,4 +1,5 @@
-const apiKey = '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'; // Reemplaza con tu clave de API de OpenRouter
+const apiKey = process.env.OPENROUTER_API_KEY;
+
 const apiUrl = 'https://openrouter.ai/api/v1/chat/completions'; // Endpoint de OpenRouter
 
 function sendMessage() {
@@ -41,7 +42,7 @@ function sendMessage() {
     };
 
     // Hacer la solicitud a la API
-    fetch(apiUrl, requestOptions)
+    fetch("/netlify/openrouter.js", requestOptions)
         .then(response => response.json())
         .then(data => {
             let botResponse = data.choices[0].message.content;
