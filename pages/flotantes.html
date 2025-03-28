@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel=stylesheet href="../css/flotantes.css" />
+  <link rel=stylesheet href="../css/index.css" />
+  <script src="/js/Funciones.js"></script>
+  <title>Document</title>
+
+</head>
+
+<body>
+  <header>
+
+    <nav>
+      <ul>
+        <li><a href="/index.html"> Inicio</a></li>
+        <li><a href="pages/chatBot.html"> Chat Bot</a></li>
+        <li><a href="pages/tutorLPP.html">Tutor de LPP </a></li>
+        <li><a href="pages/flotantes.html">Flotantes</a></li>
+        <li><a href="pages/formulario.html">Consultas</a></li>
+        <li><a href="pages/transiciones.html">Transiciones</a></li>
+        <li><a href="pages/columna.html">Columna</a></li>
+        <li><a href="pages/audio.html">Audio</a></li>
+        <li><a href="pages/degradado.html">Degradado</a></li>
+        <li><a href="pages/animacion.html">Animacion</a></li>
+        <li><a href="pages/SVG.html">SVG</a></li>
+        <li><a href="pages/canvas.html">Canvas</a></li>
+        <li><a href="pages/moviles.html">Moviles</a></li>
+        <li><a href="pages/editables.html">Editable</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main>
+    <section>
+
+      <div id="caja1">
+        <br><br><br>
+        <img src="/img/float.png"> </div>
+      <div id="caja2">
+        <h3>Manejo de Float (.css)</h3>
+        <p>La propiedad float sirve para alinear cajas o < divs> a la izquierda o a la derecha de otras cajas,
+            utilizando el valor float:left o float:right.</p>
+        <ol>
+          <li>
+            Para alinear varias cajas (o < divs>) una a la derecha de la otra, todas las cajas tienen que tener un
+              width
+              determinado y un float.
+          </li>
+          <li>
+            La suma de todos los width de todas las cajas deben caber en el ancho del < body>. Si no caben se pondrá
+              una
+              debajo de la otra.
+          </li>
+          <li>
+            Por lo general, en todas las cajas se utiliza el mismo tipo de alineación (o todas left o todas right).
+          </li>
+          <li>
+            Aunque se quiera colocar una caja a la derecha de otra, se utiliza float:left, ya que el valor right
+            indica
+            que las cajas se alinearán desde la parte derecha de la ventana del navegador.
+          </li>
+          <li>
+            La siguiente caja que venga después de la última caja que utiliza un float, (aunque no tenga ningún valor
+            float), se alineará en el espacio vacio que deje la alineación anterior. Para evitar esto, a esta nueva
+            caja
+            se le debe añadir la declaración: clear:both;. De esta manera no aprovechará el espacio vacio que pudiera
+            quedar y se colocará correctamente debajo de la última caja.
+          </li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    COPYRIGHT 2025
+  </footer>
+
+</body>
+
+</html>

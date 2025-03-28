@@ -1,0 +1,15 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+svg {
+    display: block;
+    margin: 10px auto;
+}
+h3{
+    padding: 10px;
+    color: white;
+}

@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  background-color: #333;
+  
+}
+
+
+
+header nav {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  background-color: #1d1d1d;
+}
+
+nav {
+  width: 100%;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  padding: 10px;
+
+}
+
+nav ul li a {
+  font-family: Arial, sans-serif;
+  padding: 13px;
+  background-color: #1d1d1d;
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  background-color: rgb(119, 113, 113);
+}
+
+main {
+  flex: 1; /* Permite que el contenido crezca y empuje el footer hacia abajo */
+  padding: 20px;
+}
+
+section {
+  display: flex;
+  gap: 20px;
+}
+
+article {
+  color: white;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  width: 100%;
+  margin-top: auto; /* Empuja el footer hacia abajo si hay poco contenido */
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    font-size: 14px;
+    padding: 10px;
+    position: relative; /* Evita que cubra contenido en pantallas pequeñas */
+  }
+}

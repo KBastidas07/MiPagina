@@ -1,0 +1,82 @@
+.contenedor {
+  display: block;
+  width: 100%;
+  margin: 16px;
+
+}
+
+.contenedor h3 {
+  margin-bottom: 5px;
+}
+
+.contenedor div {
+  padding: 10px;
+
+}
+
+#columna1 {
+  column-count: 3;
+  column-gap: 20px;
+  column-rule: 4px solid #1600b9;
+  list-style: none;
+  color: aliceblue
+}
+
+#columna2 {
+  column-count: 3;
+  column-gap: 20px;
+  column-rule: 4px dotted #1600b9;
+  list-style: none;
+  color: aliceblue
+}
+
+#columna3 {
+  column-count: 3;
+  column-gap: 20px;
+  column-rule: 4px dashed #1600b9;
+  list-style: none;
+  color: aliceblue
+}
+
+#columna4 {
+  column-count: 3;
+  column-gap: 20px;
+  column-rule: 4px double #1600b9;
+  list-style: none;
+  color: aliceblue
+}
+
+#columna5 {
+  column-count: 3;
+  column-gap: 20px;
+  column-rule: 4px groove #1600b9;
+  list-style: none;
+  color: aliceblue
+}
+
+#columna6 {
+  column-count: 3;
+  column-gap: 20px;
+  column-rule: 4px ridge #1600b9;
+  list-style: none;
+  color: aliceblue
+}
+
+#columna7 {
+  column-count: 3;
+  column-gap: 20px;
+  column-rule: 4px inset #1600b9;
+  list-style: none;
+  color: aliceblue
+}
+
+#columna8 {
+  column-count: 3;
+  column-gap: 20px;
+  column-rule: 4px outset #1600b9;
+  list-style: none;
+  color: aliceblue
+}
+b{
+  color: rebeccapurple;
+}

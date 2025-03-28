@@ -1,0 +1,43 @@
+#caja1 {
+  width: 50%;
+  float: left;
+  display: contents;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#caja1 img {
+
+  width: 450px;
+  height: 390px;
+  border: #00539f 5px solid;
+
+}
+
+#caja2 h3 {
+  margin: 0;
+  padding: 12px;
+  color: #00539f;
+  text-shadow: 1px 3px 5px black;
+  text-align: center;
+  
+}
+
+#caja2 {
+  width: auto;
+  float: left;
+  border: orange 3px solid;
+}
+
+#caja2 p {
+  color: aliceblue;
+}
+
+#caja2 li {
+  list-style: outside;
+  justify-content: center;
+  padding: 5px;
+  margin-left: 16px;
+  color: aliceblue;
+}

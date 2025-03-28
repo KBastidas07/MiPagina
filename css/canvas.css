@@ -1,0 +1,11 @@
+main {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    height: 70vh; /* Ajustar el alto */
+}
+
+canvas {
+    display: block;
+    margin: auto;
+    border: white 3px solid;
+}

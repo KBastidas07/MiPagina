@@ -1,0 +1,48 @@
+body{
+    background-color: #333 !important;
+}
+/* Estilos del formulario */
+form {
+    width: 55%;
+    margin: 20px auto;
+    background-color: #222;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    overflow: hidden;
+}
+
+/* Estilos de la tabla */
+table {
+    width: 100%;
+    border: white 3px solid;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    color: white !important;
+    vertical-align: top;
+    
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+
+}
+
+.checkbox-item{
+    text-align: center;
+    padding: 35px;
+    
+}
+
+
+
+
+
+
+
+

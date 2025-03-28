@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel=stylesheet href="../css/index.css" />
+  <title>Document</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+  <header>
+
+    <nav>
+      <ul>
+        <li><a href="index.html"> Inicio</a></li>
+        <li><a href="pages/chatBot.html"> Chat Bot</a></li>
+        <li><a href="pages/tutorLPP.html">Tutor de LPP </a></li>
+        <li><a href="pages/flotantes.html">Flotantes</a></li>
+        <li><a href="pages/formulario.html">Consultas</a></li>
+        <li><a href="pages/transiciones.html">Transiciones</a></li>
+        <li><a href="pages/columna.html">Columna</a></li>
+        <li><a href="pages/audio.html">Audio</a></li>
+        <li><a href="pages/degradado.html">Degradado</a></li>
+        <li><a href="pages/animacion.html">Animacion</a></li>
+        <li><a href="pages/SVG.html">SVG</a></li>
+        <li><a href="pages/canvas.html">Canvas</a></li>
+        <li><a href="pages/moviles.html">Moviles</a></li>
+        <li><a href="pages/editables.html">Editable</a></li>
+      </ul>
+    </nav>
+
+  </header>
+  <div class="container">
+    <h2>Acordeón con Bootstrap</h2>
+    <div class="panel-group" id="accordion">
+      
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#item1">Arquitectura de Sistemas Monolíticos</a>
+          </h4>
+        </div>
+        <div id="item1" class="panel-collapse collapse in">
+          <div class="panel-body">La arquitectura de sistemas monolíticos es un modelo de desarrollo de software en el que todos los componentes de una aplicación (interfaz de usuario, lógica de negocio y acceso a datos) están integrados en un solo código fuente y se ejecutan como una única unidad. En este tipo de arquitectura, cualquier cambio en una parte del sistema requiere la modificación, compilación y despliegue de toda la aplicación, lo que puede dificultar la escalabilidad y el mantenimiento a medida que el software crece.</div>
+        </div>
+      </div>
+      
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#item2">Cliete Servidor </a>
+          </h4>
+        </div>
+        <div id="item2" class="panel-collapse collapse">
+          <div class="panel-body">La arquitectura cliente-servidor es un modelo de comunicación donde un dispositivo o programa (cliente) solicita servicios o recursos a otro dispositivo o programa (servidor), el cual procesa la solicitud y envía una respuesta. Esta arquitectura permite distribuir las funciones entre múltiples dispositivos, optimizando el procesamiento y facilitando la escalabilidad en redes y sistemas informáticos.</div>
+        </div>
+      </div>
+      
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#item3">Ejemplos</a>
+          </h4>
+        </div>
+        <div id="item3" class="panel-collapse collapse">
+          <div class="panel-body">Ejemplo cliente servidor:br Un ejemplo de arquitectura cliente-servidor es un navegador web accediendo a una página de internet. El navegador (cliente) envía una solicitud a un servidor web, que procesa la petición y devuelve la página solicitada en formato HTML, CSS y JavaScript para que el cliente la muestre al usuario.<br> <br>Ejemplo sistemas monoliticos:  Aplicaciones web tradicionales donde el frontend, backend y la base de datos están en un solo proyecto.</div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+
+  <footer>
+    COPYRIGHT 2025
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+
+#degradado {
+  border: 3px solid rgb(0, 0, 0);
+  width: 70%;
+  height: 300px; 
+  background: linear-gradient(to right, #6a0dad, #1e90ff, #00ffff);
+  margin: auto; /* Centra horizontalmente */
+  justify-content: center; /* Centra contenido interno horizontalmente */
+
+  
+}
+h3{
+  color: white;
+  text-align: center;
+  padding: 50px;
+
+  
+}
+
+
