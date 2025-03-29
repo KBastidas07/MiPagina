@@ -1,23 +1,27 @@
-const fetch = require("node-fetch");
-
 exports.handler = async (event) => {
-    const apiKey = process.env.OPENROUTER_API_KEY;  // Netlify cargará esta clave
+    const apiKey = process.env.PUBLIC_APIKEY; // Lee la clave del .env
+    const apiUrl = 'https://openrouter.ai/api/v1/chat/completions';
 
-    const requestBody = JSON.parse(event.body);
-
-    const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
-        method: "POST",
+    const requestOptions = {
+        method: 'POST',
         headers: {
-            "Authorization": `Bearer ${apiKey}`,
-            "Content-Type": "application/json"
+            'Authorization': `Bearer ${apiKey}`,
+            'Content-Type': 'application/json'
         },
-        body: JSON.stringify(requestBody)
-    });
-
-    const data = await response.json();
-
-    return {
-        statusCode: 200,
-        body: JSON.stringify(data),
+        body: event.body
     };
+
+    try {
+        const response = await fetch(apiUrl, requestOptions);
+        const data = await response.json();
+        return {
+            statusCode: 200,
+            body: JSON.stringify(data)
+        };
+    } catch (error) {
+        return {
+            statusCode: 500,
+            body: JSON.stringify({ error: "Error al hacer la solicitud" })
+        };
+    }
 };

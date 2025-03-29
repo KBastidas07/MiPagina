@@ -1,49 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel=stylesheet href="../css/chatbot.css" />
-  <link rel=stylesheet href="../css/index.css" />
-  <script src="/js/tutorLPP.js"></script>
-  <title>Document</title>
+  <link rel="stylesheet" href="../css/chatbot.css">
+  <link rel="stylesheet" href="../css/index.css">
+  <title>Tutor LPP</title>
 
+  <!-- Carga diferida del script -->
+  <script src="/js/tutorLPP.js" defer></script>
 </head>
 
 <body>
   <header>
-
     <nav>
       <ul>
-        <li><a href="/index.html"> Inicio</a></li>
-        <li><a href="chatBot.html"> Chat Bot</a></li>
-        <li><a href="tutorLPP.html">Tutor de LPP </a></li>
+        <li><a href="/index.html">Inicio</a></li>
+        <li><a href="chatBot.html">Chat Bot</a></li>
+        <li><a href="tutorLPP.html">Tutor de LPP</a></li>
         <li><a href="flotantes.html">Flotantes</a></li>
         <li><a href="formulario.html">Consultas</a></li>
         <li><a href="transiciones.html">Transiciones</a></li>
         <li><a href="columna.html">Columna</a></li>
         <li><a href="audio.html">Audio</a></li>
         <li><a href="degradado.html">Degradado</a></li>
-        <li><a href="animacion.html">Animacion</a></li>
+        <li><a href="animacion.html">Animación</a></li>
         <li><a href="SVG.html">SVG</a></li>
         <li><a href="canvas.html">Canvas</a></li>
-        <li><a href="moviles.html">Moviles</a></li>
+        <li><a href="moviles.html">Móviles</a></li>
         <li><a href="editables.html">Editable</a></li>
       </ul>
     </nav>
-
   </header>
+
   <main>
     <section>
       <div id="chatbot">
-        <h1>Tutor lpp</h1>
-        <input type="text" id="userInput" placeholder="Escribe lo que quieres que haga en lpp...">
+        <h1>Tutor LPP</h1>
+        <input type="text" id="userInput" placeholder="Escribe lo que quieres que haga en LPP...">
         <button onclick="sendMessage()">Enviar</button>
         <div id="response"></div>
       </div>
-
-
     </section>
   </main>
 
