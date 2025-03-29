@@ -42,7 +42,7 @@ function sendMessage() {
     };
 
     // Hacer la solicitud a la API
-    fetch("/.netlify/functions/openrouter", requestOptions)
+    fetch("/netlify/functions/openrouter.js", requestOptions)
         .then(response => response.json())
         .then(data => {
             let botResponse = data.choices[0].message.content;
